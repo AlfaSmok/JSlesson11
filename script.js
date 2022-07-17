@@ -15,7 +15,7 @@ const colorName = function () {
 const chaneRange = function () {
   circle.style.height = inputRange.value + '%';
   circle.style.width = inputRange.value + '%';
-  rangeSpan.textContent = inputRange.value;
+  rangeSpan.textContent = inputRange.value + ' %';
 };
 
 
