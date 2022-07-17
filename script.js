@@ -8,13 +8,20 @@ const inputRange = document.getElementById('range');
 const circle = document.getElementById('circle');
 const rangeSpan = document.getElementById('range-span');
 
+// исходные значения
+circle.style.height = 50 + '%';
+circle.style.width = 50 + '%';
+rangeSpan.textContent = 50 + ' %';
+
+
 const colorName = function () {
   square.style.backgroundColor = inputColor.value;
 };
 
+
 const chaneRange = function () {
   circle.style.height = inputRange.value + '%';
-  circle.style.width = inputRange.value + '%';
+  circle.style.width  = inputRange.value + '%';
   rangeSpan.textContent = inputRange.value + ' %';
 };
 
